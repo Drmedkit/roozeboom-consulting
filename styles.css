@@ -286,6 +286,7 @@ header {
 }
 
 .mobile-nav.open {
+    display: block;
     max-height: 500px; /* Arbitrary large value to show content */
 }
 
@@ -342,7 +343,7 @@ header {
     color: var(--color-teal-dark);
     padding: var(--spacing-xl) 0;
     text-align: center;
-    background-image: url('images/hero-bg-pattern.svg'); /* Example subtle pattern */
+    background-image: linear-gradient(135deg, var(--color-teal-dark) 0%, var(--color-primary-teal) 100%);
     background-size: cover;
     background-position: center;
 }
