@@ -184,7 +184,7 @@ ul li::before {
 /* Header */
 header {
     background-color: var(--color-background-white);
-    padding: var(--spacing-sm) 0;
+    padding: 8px 0;
     box-shadow: var(--shadow-subtle);
     position: sticky;
     top: 0;
@@ -198,7 +198,7 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Adjust as needed */
+    height: 38px;
     width: auto;
 }
 
@@ -253,12 +253,15 @@ header {
     display: flex; /* Visible by default for mobile */
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 22px;
+    width: 36px;
+    height: 28px;
     background: transparent;
     border: none;
     cursor: pointer;
-    padding: 0;
+    padding: 4px;
+    z-index: 1001;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .hamburger-menu .bar {
